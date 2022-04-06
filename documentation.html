@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>N328 Final Project</title>
+</head>
+
+<body>
+    <h1>N328 Final Project</h1>
+    <nav>
+        <a href="./index.html">Visualization</a>
+        <a href="./documentation.html">Documentation</a>
+
+    </nav>
+
+    <div class="documentation">
+
+        <h2>Documentation</h2>
+        <p>For my design process, I started looking at what data I wanted to be displayed. After having analyzed
+            the data, I came up with one question that I wanted to answer with a visualization more than any other: What
+            percentace of each passenger class survived the accident. I knew that innevitably the first class would have
+            a higher percentage, but I wasn't sure by how much. The results were actually shocking to say the least.
+            <br><br>
+            I
+            realized when I got the results that the visualization would look great as a bar graph. Although the chart
+            says a lot, it doesn't have a ton of extra components to it. That's when I decided to add some metadata for
+            each class when hovered over. That way the main information that the visualization is trying to get across
+            to the viewer is by default the main focus, but if the viewer wants to know just a little more about how
+            these numbers were generated, then they get it with the hover effect. I also thought think that this
+            metadata gives a sense of trust because it allows for the data to be quickly displayed without needing to go
+            into the csv file to find it and calculate it yourself.
+            <br><br>
+            The bar chart itself is also purposefuly minimalistic. I like that the black background makes the orange
+            bars and white chart axes pop out and grab your attention. I also didn't want too many distracting effects
+            on the visualization, so I avoided using transitions and stuck to basic mouseover and mouseout listeners.
+            <br><br>
+            As far as what I learned from the visualization was how incredibly unfair the dynamic was for the passengers
+            that were aboard the Titanic. Even though the numbers don't represent every sinlge passenger that was on the
+            titanic, it gives you a good idea of what the power dynamic was on the ship when it inevitably started
+            sinking. The other interesting thing I took away from the visualization actually comes the metadata. You see
+            that women survived at a much higher percentage than men. I knew there was a great chance of this being the
+            case, but I wasn't entirely sure because most of what I knew about the titanic unfortunately originated from
+            the movie (I know don't judge me) in which the women and children are prioritized for the life boats.
+        </p>
+        <div class="player">
+            <iframe id="player" type="text/html" width="640" height="390"
+                src="http://www.youtube.com/embed/M7lc1UVf-VE?enablejsapi=1&origin=http://example.com"
+                frameborder="0"></iframe>
+        </div>
+
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

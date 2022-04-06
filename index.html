@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>N328 Final Project</title>
+</head>
+
+<body>
+    <h1>N328 Final Project</h1>
+    <nav>
+        <a href="./index.html">Visualization</a>
+        <a href="./documentation.html">Documentation</a>
+    </nav>
+
+    <svg id="main" width="1000" height="1000">
+        <text id='label' x='250' y='80'>Titanic Survival Rate Based On Class </text>
+        <text class="classDetails" x="450" y="180" id="femaleDetails"></text>
+        <text class="classDetails" x="450" y="220" id="maleDetails"></text>
+        <text class="classDetails" x="450" y="300" id="totalDetails"></text>
+        <text class="classDetails" x="450" y="340" id="totalSurvivedDetails"></text>
+        <text class="classDetails" x="450" y="380" id="survivedDetails"></text>
+
+
+
+
+        <g transform="translate(100,60)"></g>
+    </svg>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
